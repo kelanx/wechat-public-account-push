@@ -6,21 +6,21 @@ export const config = {
   // 公众号APP_ID 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_ID: "",
+  // APP_ID: "wx331625b8886d31a1",
 
   // 公众号APP_SECRET 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_SECRET: "",
+  // APP_SECRET: "6a27451e35f692c2061c7ee5235e93f8",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-   * [
+   * [klswy1218
    *  {
    *    // 想要发送的人的名字
-   *    name: "老婆0",
+   *    name: "宝",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
+   *    id: "oQIB75sFZvor0dyl9Ixb8D8oFY0A",
    *    // 你想对他发送的模板消息的模板ID
    *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -31,15 +31,15 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO6VskY2v40Kuf5ywIZVRM3puXhk",
+      id: "wxid_bn9lkj7papqm22"
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
       // 所在省份
-      province: "广东",
+      province: "江西",
       // 所在城市
-      city: "肇庆",
+      city: "南昌",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
@@ -82,7 +82,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
+      id: "wxid_bn9lkj7papqm22",
     }, 
   ],
     
@@ -93,9 +93,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "江西",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "南昌",
 
   /** 重要节日相关 */
 
@@ -106,10 +106,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "最最喜欢的肖新华", "year": "2004", "date": "10-14"},
+    {"type": "节日", "name": "在一起的日子", "year": "2022", "date": "06-03"},
+    {"type": "生日", "name": "你唯一的小柯", "year": "2003", "date": "12-18"},
+    {"type": "节日", "name": "公众号诞生日", "year": "2022", "date": "09-08"},
   ],
 
   /**
@@ -127,13 +127,13 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
-    // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
+    {"keyword": "love_day", date: "2022-06-03"},
+    // 
+    {"keyword": "", date: ""},
+    // 
+    {"keyword": "", date: ""},
+    // 
+    // {"keyword": "", date: ""},
     // ... 
   ],
 
@@ -152,6 +152,27 @@ export const config = {
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
       "遇见你，就好像捡到了100斤的运气",
+      " 春早秋晚，岁岁平安"
+      "前途坦荡，来日方长"
+      "玫瑰到了花期，我很想你"
+      "祝我们好在春夏秋冬"
+      "往事暗沉不可追，来日之路光明灿烂"
+      "我一直在"
+      "极光会有的，并肩于雪山之巅"
+      "平安喜乐，万事胜意"
+      "一支真心准备的花，胜过千朵玫瑰"
+      "双手合十的愿望里永远有你"
+      "以你为主，我不胜荣幸"
+      "也许世界上有五千朵和你一模一样的花，但只有你是我独一无二的玫瑰
+      "永远热恋，永远没有完结篇"
+      "永远是你的最佳听众"
+      "世中逢尔，雨中逢花"
+      "彼方尚有荣光在"
+      "你不像任何人，因为我爱你"
+      "夜晚潮湿，地面潮湿，空气寂静，树林沉默"
+      "我们走的每一步，都是信仰"
+      "遇见即是上上签"
+      "天上没有不散的筵席，而我永远不会离开你"
     ]},
   ],
 
@@ -159,7 +180,7 @@ export const config = {
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  LITERARY_PREFERENCE: "动画，漫画，游戏，小说，电影，电视剧"
 
 
 }
